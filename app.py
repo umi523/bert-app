@@ -8,6 +8,7 @@ app = Flask(__name__)
 app.config["DEBUG"] = True
 
 # Load the pre-trained DistilBERT model and tokenizer
+# Deployment Comment
 tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
 model = DistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased', num_labels=2)
 model.eval()
