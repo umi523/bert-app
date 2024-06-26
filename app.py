@@ -22,7 +22,7 @@ def sentiment_analysis():
         # Parse JSON payload
         data = request.get_json()
         
-        # Check if 'text' field is present
+        # Check if 'text' field is present d
         if 'text' not in data:
             return jsonify({'error': "'text' field is required in the JSON payload"}), 400
         
