@@ -1,7 +1,3 @@
 runtime: python312
 
-env:
-  variables:  # Indentation fixed here
-    # Define environment variables here (optional)
-
 service: bert-app  # Replace with your desired service name
