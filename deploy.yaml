@@ -1,0 +1,6 @@
+runtime: python312
+
+env: variables:
+  # Define environment variables here (optional)
+
+service: bert-app  # Replace with your desired service name
