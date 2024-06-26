@@ -1,0 +1,3 @@
+runtime: python312
+
+service: bert-app  # Replace with your desired service name
